@@ -1,0 +1,79 @@
+# Font
+font.family:        Arial
+font.size:          14.0
+
+# TEXT
+text.color:         darkslategray   # Affects title & legend
+
+# AXES
+axes.edgecolor:     red             # axes edge color
+axes.linewidth:     1.5             # edge linewidth    
+axes.grid:          False           # display grid or not
+axes.titlesize:     x-large         # fontsize of the axes title
+axes.labelcolor:    black           # color of the x and y labels
+axes.labelsize:     large           # fontsize of the x and y labels
+axes.labelweight:   normal          # weight of the x and y labels
+axes.labelpad:      10.0            # space between label and axis
+axes.spines.left:   True            # display axis spines
+axes.spines.bottom: True
+axes.spines.top:    False
+axes.spines.right:  False
+axes.prop_cycle:   cycler('color', ['c', 'm', 'y', 'k'])
+#axes.prop_cycle:    cycler('color', ['b2182b','ef8a62','fddbc7','2166ac','67a9cf','d1e5f0'])   # Color blind friendly palette
+
+# TICKS
+#xtick.top:         False           # draw ticks on the top side
+#xtick.bottom:      True            # draw ticks on the bottom side
+#xtick.labeltop:    False           # draw label on the top
+#xtick.labelbottom: True            # draw label on the bottom
+#xtick.major.size:  3.5             # major tick size in points
+#xtick.minor.size:  2               # minor tick size in points
+xtick.major.width:  2               # major tick width in points
+xtick.minor.width:  1               # minor tick width in points
+xtick.color:        black           # color of the tick labels
+xtick.labelsize:    medium          # fontsize of the tick labels
+xtick.direction:    in              # direction: {in, out, inout}
+
+#ytick.left:        True            # draw ticks on the left side
+#ytick.right:       False           # draw ticks on the right side
+#ytick.labelleft:   True            # draw tick labels on the left side
+#ytick.labelright:  False           # draw tick labels on the right side
+#ytick.major.size:  3.5             # major tick size in points
+#ytick.minor.size:  2               # minor tick size in points
+ytick.major.width:  2               # major tick width in points
+ytick.minor.width:  1               # minor tick width in points
+ytick.color:        black           # color of the tick labels
+ytick.labelsize:    medium          # fontsize of the tick labels
+ytick.direction:    in              # direction: {in, out, inout}
+
+# GRID
+# To use these, axes.grid must be set to True
+#grid.color:        b0b0b0          # grid color
+#grid.linestyle:    -               # solid
+#grid.linewidth:    0.8             # in points
+#grid.alpha:        0.5             # transparency, between 0.0 and 1.0
+
+# LEGEND
+#legend.frameon:    False           # if True, draw the legend on a background patch
+legend.framealpha:  0.9             # legend patch transparency
+legend.facecolor:   white           # 'inherit' to inherit from axes.facecolor; or color spec
+#legend.edgecolor:  0.8             # background patch boundary color
+#legend.fancybox:   True            # if True, use a rounded box for the legend background, else a rectangle
+legend.shadow:      True            # if True, give background a shadow effect
+legend.fontsize:    small          # font size for legend text
+
+# FIGURE
+figure.figsize:     5,4             # figure size in inches
+#figure.dpi:        100             # figure dots per inch
+figure.facecolor:   white           # figure facecolor
+#figure.autolayout: False           # When True, automatically adjust subplot
+                                    # parameters to make the plot fit the figure
+                                    # using `tight_layout`
+# SAVING FIGURE
+savefig.dpi:        300             # figure dots per inch or 'figure'
+savefig.facecolor:  white           # figure facecolor when saving
+savefig.bbox:       tight           # {tight, standard}
+savefig.pad_inches: 0.5             # Padding to be used when bbox is set to 'tight'
+
+# LINES
+lines.linewidth:    2               # line width in points

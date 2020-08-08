@@ -1,0 +1,26 @@
+# Set figure size to 5x4 inches with white background
+figure.figsize:     5,4             # figure size in inches
+figure.facecolor:   white           # figure facecolor
+
+# Change to cyan, magenta, yellow and black color palette
+axes.prop_cycle:   cycler('color', ['c', 'm', 'y', 'k'])
+
+# Remove top and right spines
+axes.spines.left:   True            # display axis spines
+axes.spines.bottom: True
+axes.spines.top:    False
+axes.spines.right:  False
+
+# Both axis tick customisations
+xtick.direction:    in              # direction: {in, out, inout}
+ytick.direction:    in              # direction: {in, out, inout}
+xtick.major.width:  2               # major tick width in points
+ytick.major.width:  2               # major tick width in points
+xtick.labelsize:    medium          # fontsize of the tick labels
+ytick.labelsize:    medium          # fontsize of the tick labels
+
+# Change font and font size of title and both axis labels
+font.family:        Arial
+font.size:          14.0
+axes.titlesize:     x-large         # fontsize of the axes title
+axes.labelsize:     large           # fontsize of the x and y labels
