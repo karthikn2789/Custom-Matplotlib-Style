@@ -1,3 +1,5 @@
+# A sample matplotlib style file
+
 # Font
 font.family:        Arial
 font.size:          14.0
