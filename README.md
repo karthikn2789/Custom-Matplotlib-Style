@@ -6,7 +6,7 @@ The second notebook, [Data_Visualisation_Example_with_mplstyle](Data_Visualizati
 
 A couple of comparisons between Matplotlib's styles and a custom [demo_style_2.mplstyle](demo_style_2.mplstyle).
 
-![All vs custom wave](../all_vs_demo2_wave.png)
-![All vs custom bar](../all_vs_demo2_bar.png)
+![All vs custom wave](graphs/all_vs_demo2_wave.png)
+![All vs custom bar](graphs/all_vs_demo2_bar.png)
 
 If you wish to change the style of a single graph or chart while using .mplstyle, you can always override the custom style using inline customisations. Using inline customisation does not affect the .mplstyle file and the customisation will apply only to that graph or chart.
